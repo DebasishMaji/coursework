@@ -217,7 +217,7 @@ Some of the international level courses have been taken into consideration along
     * Learning through Experimentation
     * Optimizing Submodular Functions
  
-  * #### [Famous ibraries for Machine Learning](cs-246/README.md) ####
+  * #### [Famous ibraries for Machine Learning](python-libs/README.md) ####
     * Pandas
     * Numpy
     * Matplotlib
