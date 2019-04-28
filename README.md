@@ -216,8 +216,12 @@ Some of the international level courses have been taken into consideration along
     * Computational Advertising
     * Learning through Experimentation
     * Optimizing Submodular Functions
-
-
+ 
+  * #### [Famous ibraries for Machine Learning](cs-246/README.md) ####
+    * Pandas
+    * Numpy
+    * Matplotlib
+    * Scikit-learn
+    * TensorFlow
+    * Keras
     
-
-
