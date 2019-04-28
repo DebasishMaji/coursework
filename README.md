@@ -2,7 +2,7 @@
 
 Self designed coursework to ponder upon the every single details behind machine learning algorithms and mathematical significance.
 
-Some of international level courses have been taken into consideration along with practical experiment.
+Some of the international level courses have been taken into consideration along with practical experiment.
 
 ### Courses 
 
