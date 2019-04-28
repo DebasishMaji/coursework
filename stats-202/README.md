@@ -19,5 +19,5 @@
  
 ## Lectures:
     
-   ***Part 1: see documentation [here](lectures/lecture1.md)***
-   ***Part 2: see documentation [here](lectures/lecture2.md)***
+   * ***Part 1: see documentation [here](lectures/lecture1.md)***
+   * ***Part 2: see documentation [here](lectures/lecture2.md)***
