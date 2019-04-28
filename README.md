@@ -6,7 +6,7 @@ Some of international level courses have been taken into consideration along wit
 
 ### Courses 
 
- * #### STATS 202: Data Mining and Analysis ####
+ * #### [STATS 202: Data Mining and Analysis](stats-202/README.md) ####
       
  * #### CS228: Probabilistic Graphical Models: Principles and Techniques ####
  
