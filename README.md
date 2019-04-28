@@ -30,6 +30,33 @@ Some of international level courses have been taken into consideration along wit
    
       
  * #### [CS228: Probabilistic Graphical Models: Principles and Techniques](cs-228/README.md) ####
+    * Counting
+    * Permutations and Combinations	
+    * Axioms of Probability	
+    * Conditional Probability, Bayes Theorem	
+    * Independence
+    * Random Variables, Expectation	
+    * Variance, Bernoulli and Binomial	
+    * Discrete Distributions	
+    * Continuous Random Variables	
+    * Normal Distributions	
+    * Joint Distribution Functions	
+    * Independent Random Variables	
+    * Conditional Distributions	
+    * Beta Distributions	
+    * Variance From Events	
+    * Covariance and Samples	
+    * Correlation
+    * Conditional Expectation	
+    * Central Theorems	
+    * Parameters and Learning	
+    * Maximizing Likelihood	
+    * Maximum A Posteriori	
+    * Naive Bayes	
+    * Logistic Regression	
+    * Deep Learning	
+    * Applied Machine Learning	
+
  
  * #### [CS221: Artificial Intelligence: Principles and Techniques](cs-221/README.md) ####
  
