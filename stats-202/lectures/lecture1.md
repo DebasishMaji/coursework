@@ -44,20 +44,6 @@
    ##### Goal
    To learn the function f, using a set of training samples.
    
-   ### Motivations:
-   
-   * ***Prediction*** : useful when the input variable is readily availbale, but the output variable is not.
-       
-       Example: Predict stock prices next month using data from last year.
-       
-   * ***Inference*** : A model for f can help us understand the structure of the data
-      
-      which variables influence the output and which don't?
-      
-      What is the relationship between each variable and the output e.g. linear or non-linear?
-   
-    Example: What is the influence of genetic variations on the incidence of heart disease.
- 
 ### A sample Kaggle Challenge
 
 Help out San Francisco's foremost Baroque ensemble bring in subscriptions!

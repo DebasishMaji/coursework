@@ -217,11 +217,23 @@ Some of the international level courses have been taken into consideration along
     * Learning through Experimentation
     * Optimizing Submodular Functions
  
-  * #### [Famous ibraries for Machine Learning](python-libs/README.md) ####
+  * #### [Famous libraries for Machine Learning](python-libs/README.md) ####
     * Pandas
     * Numpy
     * Matplotlib
     * Scikit-learn
     * TensorFlow
     * Keras
+    
+  * #### [Data Processing using Spark](data-processing/README.md) ####
+    * Brief into about data processing and data processing frameworks:
+        1. Apache Hadoop
+        2. Apache Storm
+        3. Apache Samza
+        4. Apache Spark
+    * Performance Comparison of Apache Hadoop vs Apache Spark
+    * Introduction to Apache Spark
+    * Spark Features
+    * Spark with Hadoop
+    * Spark Components
     
