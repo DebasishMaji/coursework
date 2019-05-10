@@ -1,4 +1,4 @@
-# Lecture 2: Supervised vs Unsupervised learning, bias-variance trade off
+# Supervised vs Unsupervised learning, bias-variance trade off
 
    #### In supervised learning our goal is to:
     

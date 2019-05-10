@@ -1,4 +1,4 @@
-# Lecture 1: Course Logistics
+# Course Logistics
 
 ### Prediction challenges:
   The MNIST dataset is a library of handwritten digits.
