@@ -21,3 +21,5 @@
     
    * [Course Logistics](lectures/lecture1.md)
    * [Supervised vs Unsupervised learning, bias-variance trade off](lectures/lecture2.md)
+   * [Principal Components Analysis](lectures/lecture3.md)
+   

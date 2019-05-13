@@ -107,3 +107,34 @@ fit the model, a better measure of quality for f' is the test MSE:
    
     More flexibility ⇐⇒ Higher variance ⇐⇒ Lower bias
    
+   #### Classification Problems
+   
+   In a classification setting, the output takes values in a discrete set.
+   
+   For example, if we are predicting the brand of a car based on a number of variables, the function f takes {Ford, Toyota, Mercedes-Benz, . . . }.
+   
+   The model:
+            
+     Y = f(X) + ε
+    
+   becomes insufficient, as X is not necessarily real-valued.
+   
+  #### Loss function for classification
+  
+  There are many ways to measure the error of a classification prediction. One of the most common is the 0-1 loss:
+  
+    E(1(y0 != y'0))
+   
+  like the MSE, this quantity can be estimated from training and test data by taking a sample average:
+  
+        1/n Σ 1(yi != y'i) where i belongs to (1, n)
+        
+  #### Bayes Classifier
+  
+  In practice, we never know the joint probability P, However, we can assume that it exists
+  
+  The Bayes Classifier assigns:
+    
+        y'i = argmax j P(Y = j | X = xi)     
+  
+  It can be shown that this is the best classifier under the 0-1 loss
