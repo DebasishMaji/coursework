@@ -7,9 +7,9 @@ Some of the international level courses have been taken into consideration along
 ### Courses 
 
  * #### [STATS 202: Data Mining and Analysis](stats-202/README.md) ####
-   * Class logistics
-   * Supervised and unsupervised learning	
-   * Classification, Principal components analysis	
+   * [Class logistics](/stats-202/lectures/lecture1.md)
+   * [Supervised and unsupervised learning](/stats-202/lectures/lecture2.md)
+   * [Classification, Principal components analysis](/stats-202/lectures/lecture3.md)
    * PCA, Clustering	
    * Linear regression	
    * Classification: logistic regression	
