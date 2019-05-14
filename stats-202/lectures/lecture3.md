@@ -62,4 +62,42 @@
    
             X^TX = ΦΣ^2Φ^T
             
-            
+   #### Scaling the variables
+   
+   In some special cases the unit of all the variables are same i.g. gene expression levels of different gene
+   
+   In this case, we care about the absolute value of the variable and we can perform PCA without scaling.
+   
+  #### The proportion of variance
+  
+  we can think the top principal components as the directions in the space in which the data vary the most
+  
+  The ith score vector r (z1i, . . . , zni) can be interpreted as a new variable.
+  The variance of this variable decreases as we take i from 1 to p.
+  
+  The total variance of the score vectors is the same as the total variance of the original variables.
+  
+  
+    (Summation over i belongs to (1, p) (summation over j belongs to (1, n) zji**2)/n) = summation over k belongs to (1,p) Var(xk)
+    
+    
+   We can quantify how much of the variance is captured by first m principal components/ score variables
+   
+       The variance of the mth score variable is 
+       
+       (summation over i belongs to (1, n) zim ** 2)/n = (summation over i belongs to (1, n) (summation over j belongs to (1, p) φjmxij)**2)/n
+       
+   
+   #### Generalizations of PCA
+   
+   PCA works under a Euclidean geometry in the space of variables. But often the natural geometry is different
+   
+   * We expect some variables to be close to each other and that to others variables.
+   
+   * Some correlations can be more surprising than others.
+   
+   e.g. 
+   
+   * Variables are pixel values and samples are different images of the brain. We expect neighbouring pixels to have stronger correlations.
+   
+   * Variables are rainfall measurements at different regions. We expect neighbouring regions to have stronger correlations.
