@@ -34,3 +34,67 @@ Clustering is a unsupervised algorithm whose goal is to find homogeneous subgrou
    * Each initialization could yield a different value
    
    In practice we start from many random initialization 
+   
+   #### Hierarchical Clustering
+   
+   * Most algorithms for hierarchical clustering are agglomerative.
+   
+   * The output of the algorithm is a dendogram. We must be careful about how we interpret the dendogram.
+   
+  #### Notion of distance between clusters
+  
+   * At each step, we link the 2 clusters that are “closest” to each other.
+   
+   * Hierarchical clustering algorithms are classified according to the notion of distance between clusters.
+   
+  ##### Complete linkage:
+   
+    The distance between 2 clusters is the maximum distance between any pair of samples, one in each cluster.
+    
+  ##### Single linkage:
+    
+    The distance between 2 clusters is the minimum distance between any pair of samples, one in each cluster.
+  
+  ##### Average linkage:
+    
+    The distance between 2 clusters is the average of all pairwise distances.
+  
+  #### Clustering is riddled with questions and choices
+  
+  * Is clustering appropriate? i.e. Could a sample belong to more than one cluster?
+        
+       * Mixture models, soft clustering, topic models
+       
+  * How many clusters are appropriate?
+  
+       * Choose subjectively — depends on the inference sought.
+       
+       * There are formal methods based on gap statistics, mixture models, etc.
+
+  * Are the clusters robust?
+        
+       *  Run the clustering on different random subsets of the data. Is the structure preserved?
+
+       * Try different clustering algorithms. Are the conclusions consistent?
+    
+       * Most important: temper your conclusions
+       
+   * Should we scale the variables before doing the clustering
+   
+       * Variables with larger variance have a larger effect on the Euclidean distance between two samples.
+
+   * Does Euclidean distance capture dissimilarity between samples?
+   
+   #### Correlation distance
+   
+   Suppose that we want to cluster customers at a store for market segmentation.
+        
+   * I Samples are customers
+   
+   * Each variable corresponds to a specific product and measures the number of items bought by the customer during a year.
+
+   * Euclidean distance would cluster all customers who purchase few things 
+
+   * Perhaps we want to cluster customers who purchase similar things 
+    
+   * Then, the correlation distance may be a more appropriate measure of dissimilarity between samples.
