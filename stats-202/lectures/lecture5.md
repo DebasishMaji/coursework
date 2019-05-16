@@ -16,6 +16,7 @@
    
    A little calculus shows that the minimizers of the RSS are:
    
+        βˆ1 = (summation over i belongs to (1, n) (xi − x')(yi − y)) / (summation over i belongs (1, n) (xi − x)**2)
         
         βˆ0 = y − βˆ
 
