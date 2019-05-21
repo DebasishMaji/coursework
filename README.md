@@ -11,7 +11,7 @@ Some of the international level courses have been taken into consideration along
    * [Supervised and unsupervised learning](/stats-202/lectures/lecture2.md)
    * [Classification, Principal components analysis](/stats-202/lectures/lecture3.md)
    * [Clustering](/stats-202/lectures/lecture4.md)	
-   * Linear regression	
+   * [Linear regression](/stats-202/lectures/lecture5.md)
    * Classification: logistic regression	
    * Classification: LDA, QDA	
    * Classification examples	
