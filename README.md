@@ -12,7 +12,7 @@ Some of the international level courses have been taken into consideration along
    * [Classification, Principal components analysis](/stats-202/lectures/lecture3.md)
    * [Clustering](/stats-202/lectures/lecture4.md)	
    * [Linear regression](/stats-202/lectures/lecture5.md)
-   * Classification: logistic regression	
+   * [Classification: logistic regression](/stats-202/lectures/lecture6.md)	
    * Classification: LDA, QDA	
    * Classification examples	
    * Cross validation	
