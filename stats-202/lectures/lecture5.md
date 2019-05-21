@@ -270,4 +270,78 @@ excludes these variables.
    * Solution: If the trend in variance is relatively simple, we can
 transform the response using a logarithm, for example
 
+   #### Outliers
    
+   Outliers are points with very high errors.
+   
+   While they may not affect the fit, they might affect our assessment of model quality
+   
+   Possible solutions:
+   
+   * If we believe an outlier is due to an error in data collection, we can remove it
+
+   * An outlier might be evidence of a missing predictor, or the need to specify a more complex model
+   
+  #### High leverage points
+  
+  Some samples with extreme inputs have an out sized effect on βˆ.
+  
+  This can be measured with the leverage statistic or self influence
+  
+        hii = ∂yˆi/∂yi = (X(XT X)−1XT)i,i ∈ [1/n, 1].
+        
+  #### Studentized residuals
+  
+  * The residual ˆi = yi − yˆi is an estimate for the noise i
+  
+  * The standard error of εˆi is σ √(1 − hii)
+  
+  * A studentized residual is εˆi divided by its standard error
+  
+  * When model is correct, it follows a Student-t distribution with n − p − 2 degrees of freedom
+  
+  #### Collinearity
+  
+  Two predictors are collinear if one explains the other well:
+  
+    limit = a × rating + b
+    
+  i.e. they contain the same information
+  
+  Problem: The coefficients become unidentifiable. Consider the extreme case of using two identical predictors limit:
+  
+      balance = β0 + β1 × limit + β2 × limit
+      
+      balance = β0 + β1 × limit + β2 × limit = β0 + (β1 + 100) × limit + (β2 − 100) × limit
+  
+  The fit (βˆ0, βˆ1, βˆ2) is just as good as (βˆ0, βˆ1 + 100, βˆ2 − 100)
+  
+  If 2 variables are collinear, we can easily diagnose this using their correlation
+  
+  A group of q variables is multi linear if these variables “contain less information” than q independent variables. Pairwise correlations may not reveal multi linear variables
+  
+  The Variance Inflation Factor (VIF) measures how necessary a variable is, or how predictable it is given the other variables:
+  
+    V IF(βˆj ) = 1/ (1 − R2Xj |X−j)
+    
+   where R2Xj |X−j is the R2 statistic for Multiple Linear regression of the predictor Xj onto the remaining predictors
+   
+   #### Comparing Linear Regression to K-nearest neighbors
+   
+   Linear regression: prototypical parametric method. Inference
+   
+   KNN regression: prototypical nonparametric method. Inference?
+   
+        fˆ(x) = 1/K (summation over i ∈ NK(x) yi)
+        
+   Long story short:
+   
+   * KNN is only better when the function f is not linear
+   
+   * When n is not much larger than p, even if f is nonlinear, Linear Regression can outperform KNN
+   
+   #### When there are more predictors than observations, Linear Regression dominates
+
+   When p  n, each sample has no nearest neighbors, this is known as the curse of dimensionality
+   
+   The variance of KNN regression is very large
