@@ -16,7 +16,7 @@ Some of the international level courses have been taken into consideration along
    * [Classification: LDA, QDA](/stats-202/lectures/lecture7.md)
    * [Classification examples](/stats-202/lectures/lecture8.md)	
    * [Cross validation](/stats-202/lectures/lecture9.md)	
-   * The Bootstrap	
+   * [The Bootstrap](/stats-202/lectures/lecture10.md)
    * Model selection	
    * Model selection and regularization	
    * Dimensionality reduction	
