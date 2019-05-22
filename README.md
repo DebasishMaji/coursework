@@ -13,7 +13,7 @@ Some of the international level courses have been taken into consideration along
    * [Clustering](/stats-202/lectures/lecture4.md)	
    * [Linear regression](/stats-202/lectures/lecture5.md)
    * [Classification: logistic regression](/stats-202/lectures/lecture6.md)	
-   * Classification: LDA, QDA	
+   * [Classification: LDA, QDA](/stats-202/lectures/lecture7.md)
    * Classification examples	
    * Cross validation	
    * The Bootstrap	
