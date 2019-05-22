@@ -15,7 +15,7 @@ Some of the international level courses have been taken into consideration along
    * [Classification: logistic regression](/stats-202/lectures/lecture6.md)	
    * [Classification: LDA, QDA](/stats-202/lectures/lecture7.md)
    * [Classification examples](/stats-202/lectures/lecture8.md)	
-   * Cross validation	
+   * [Cross validation](/stats-202/lectures/lecture8.md)	
    * The Bootstrap	
    * Model selection	
    * Model selection and regularization	
