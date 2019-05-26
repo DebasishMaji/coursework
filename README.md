@@ -7,7 +7,7 @@ Some of the international level courses have been taken into consideration along
 ### Courses 
 
  * #### [STATS 202: Data Mining and Analysis](stats-202/README.md) ####
-   * [Class logistics](/stats-202/lectures/lecture1.md)
+   * [Course logistics](/stats-202/lectures/lecture1.md)
    * [Supervised and unsupervised learning](/stats-202/lectures/lecture2.md)
    * [Classification, Principal components analysis](/stats-202/lectures/lecture3.md)
    * [Clustering](/stats-202/lectures/lecture4.md)	
@@ -17,7 +17,7 @@ Some of the international level courses have been taken into consideration along
    * [Classification examples](/stats-202/lectures/lecture8.md)	
    * [Cross validation](/stats-202/lectures/lecture9.md)	
    * [The Bootstrap](/stats-202/lectures/lecture10.md)
-   * Model selection	
+   * [Model selection](/stats-202/lectures/lecture11.md)	
    * Model selection and regularization	
    * Dimensionality reduction	
    * Splines

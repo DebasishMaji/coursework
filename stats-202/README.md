@@ -18,8 +18,15 @@
    
  
 ## Lectures:
-    
-   * [Course Logistics](lectures/lecture1.md)
-   * [Supervised vs Unsupervised learning, bias-variance trade off](lectures/lecture2.md)
-   * [Principal Components Analysis](lectures/lecture3.md)
    
+   * [Course logistics](lectures/lecture1.md)
+   * [Supervised and unsupervised learning](lectures/lecture2.md)
+   * [Classification, Principal components analysis](lectures/lecture3.md)
+   * [Clustering](lectures/lecture4.md)	
+   * [Linear regression](lectures/lecture5.md)
+   * [Classification: logistic regression](lectures/lecture6.md)	
+   * [Classification: LDA, QDA](lectures/lecture7.md)
+   * [Classification examples](lectures/lecture8.md)	
+   * [Cross validation](lectures/lecture9.md)	
+   * [The Bootstrap](lectures/lecture10.md)
+   * [Model selection](lectures/lecture11.md)
