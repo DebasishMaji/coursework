@@ -18,7 +18,7 @@ Some of the international level courses have been taken into consideration along
    * [Cross validation](/stats-202/lectures/lecture9.md)	
    * [The Bootstrap](/stats-202/lectures/lecture10.md)
    * [Model selection](/stats-202/lectures/lecture11.md)	
-   * Model selection and regularization	
+   * [Shrinkage](/stats-202/lectures/lecture12.md)
    * Dimensionality reduction	
    * Splines
    * Smoothing splines, GAMS, Local regression	
