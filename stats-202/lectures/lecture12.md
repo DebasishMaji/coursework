@@ -70,3 +70,57 @@
    
    Those coefficients are shrunk to zero.
    
+   #### When is the Lasso better than Ridge?
+   
+   Example 1. Most of the coefficients are non-zero
+   
+   * Plot the Bias, Variance, MSE
+   * The bias is about the same for both methods
+   * The variance of Ridge regression is smaller, so is the MSE
+   
+   Example 2. Only 2 coefficients are non-zero
+   
+   * Plot Bias, Variance, MSE
+   * The bias, variance, and MSE are lower for the Lasso
+   
+   #### Choosing λ by cross-validation
+   
+   A very special case
+   
+   Suppose n = p and our matrix of predictors is X = I.
+   
+   Then, the objective function in Ridge regression can be simplified:
+   
+        Σ(yj − βj )**2 + λΣβj**2
+       
+   and we can minimize the terms that involve each βj separately:
+   
+        (yj − βj )**2 + λβj**2
+        
+   It is easy to show that
+   
+        βˆRj = yj / (1 + λ)
+        
+   Similar story for the Lasso; the objective function is:
+   
+        Σ(yj − βj )**2 + λΣ|βj|
+        
+   and we can minimize the terms that involve each βj separately:
+   
+        (yj − βj)**2 + λ|βj|
+   
+   It is easy to show that
+   
+        βˆLj = yj − λ/2 if yj > λ/2
+             = yj + λ/2 if yj < −λ/2
+             = 0 if |yj | < λ/2
+             
+   #### Bayesian interpretations
+   
+   * Ridge: βˆR is the posterior mean, with a Normal prior on β.
+   
+   * Lasso: βˆL is the posterior mode, with a Laplace prior on β.
+   
+   
+   
+   
