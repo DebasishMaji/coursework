@@ -57,3 +57,9 @@
         
         
    Interpretation: The scores for the first principal component measure the overall rate of crime in each state.
+   
+   
+   Idea:
+
+   * Replace the original predictors, X1, X2, . . . , Xp, with the first M score vectors Z1, Z2, . . . , ZM.
+   * Perform least squares regression, to obtain coefficients θ0, θ1, . . . , θM.
