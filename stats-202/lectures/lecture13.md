@@ -63,3 +63,16 @@
 
    * Replace the original predictors, X1, X2, . . . , Xp, with the first M score vectors Z1, Z2, . . . , ZM.
    * Perform least squares regression, to obtain coefficients θ0, θ1, . . . , θM.
+   
+    The model is:
+        
+        yi = θ0 + θ1zi1 + θ2zi2 + · · · + θMziM
+        
+           = θ0 + θ1Σφj1xij + θ2Σφj2xij + · · · + θMΣφjMxij where j belongs to (1, p)
+           
+           = θ0 + Σθmφ1m xi1 + ... + Σθmφpm xip where m belongs to (1, M)
+           
+           
+   Equivalent to a linear regression onto X1, . . . , Xp, with coefficients:
+    
+        βj = Σθmφjm where m belongs to (1, M)
