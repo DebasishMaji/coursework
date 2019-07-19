@@ -76,3 +76,28 @@
    Equivalent to a linear regression onto X1, . . . , Xp, with coefficients:
     
         βj = Σθmφjm where m belongs to (1, M)
+        
+   This constrain in this form of Bj introduces bias but it can lower the variance of the model.
+   
+   #### Application to Credit Dataset
+   
+   * A model with 11 components is equivalent to least-squares-regression
+   
+   * Best error is achieved with 10 components (almost no dimensionality reduction)
+   
+   #### Relationship between PCR and Ridge regression
+   
+   * Least square regression: want to minimize
+   
+            RSS = (y − Xβ)T(y − Xβ)
+            
+            ∂RSS/∂β = −2XT(y − Xβ) = 0
+            
+            ==> βˆ = (XT X)−1XTy
+            
+   Solve the singular value decomposition: X = UD1/2VT, where D1/2 = diag(√d1, . . . , √dp); then
+   
+        (XT X)−1 = V D−1VT
+        
+   where D−1 = diag(1/d1, 1/d2, . . . , 1/dp).    
+    
